@@ -51,7 +51,7 @@ Steve's background could have been completely different, but the main point is a
 
 
 ## Use Cases
-![Use Cases](use_cases.png)
+![Use Cases](assets/use_cases.png)
 \
 Title: Sign-up\
 Actor: Customer
@@ -74,4 +74,4 @@ Actor: Customer
 Scenario: The customer should be able to take corrective measures regarding his eating habits to ensure implementation wight-loss or other body-strengthning activities. It would allow the customer if he/she is consuming too much fat for lunch or if they are not having adequate protein in his diet.  
 
 ## Domain Model
-![Use Cases](UML.png)
+![Use Cases](assets/UML.png)
