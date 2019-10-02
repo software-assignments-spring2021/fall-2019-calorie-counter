@@ -75,3 +75,4 @@ Scenario: The customer should be able to take corrective measures regarding his 
 
 ## Domain Model
 ![Use Cases](assets/UML.png)
+
