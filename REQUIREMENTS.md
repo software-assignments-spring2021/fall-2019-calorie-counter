@@ -5,6 +5,7 @@
 ### Questions Asked 
 
 * Are you conscious of how many calories you consume whenever you eat?
+  * *(Answer 1) Is conscious of how sugary or oily the food is above anything is. Also cares about whether he gets enough protein, good carbs and veggies.* 
 * Have you ever tried counting calories while eating?
 * What apps(if any) have you used for counting calories?
 * Was the process of counting calories straightforward or tedious?
