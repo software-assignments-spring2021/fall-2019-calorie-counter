@@ -9,17 +9,17 @@
 * Have you ever tried counting calories while eating?
  * *(Answer 1) Hasn’t quantified the amount of calories per se, but pays attention to portion size or the food itself , for example, he knows that a slice of pizza is going to be greasy and oily so he has a qualitative estimation of calories above anything else.*
 * What apps(if any) have you used for counting calories?
- * *(Answer 1) Has tried MyFitnessPal. Found it to be too cumbersome.
+ * *(Answer 1) Has tried MyFitnessPal. Found it to be too cumbersome.*
 * Was the process of counting calories straightforward or tedious?
-  * *(Answer 1) Found it to be too cumbersome
+  * *(Answer 1) Found it to be too cumbersome*
 * If you ever did count calories, did you ever use that information to adjust your diet?
   * *(Answer 1) Would love to know where his diet lacks and where he can improve.*
 * Were you consistent with counting calories?
-  * *(Answer 1) No
+  * *(Answer 1) No*
 * How would make the process of counting calories less of a chore and more efficient?
-  * *(Answer 1) Taking a picture of your food and then getting an eyeball estimate of how many calories are present would be pretty cool
+  * *(Answer 1) Taking a picture of your food and then getting an eyeball estimate of how many calories are present would be pretty cool*
 * How do you feel about your consumption habits being recorded and used to provide customized analytics?
-  * *(Answer 1) Would definitely appreciate this feature as he could find out which food he might need to eat less of, etc
+  * *(Answer 1) Would definitely appreciate this feature as he could find out which food he might need to eat less of, etc*
 * What is your expectation of user experience in terms of front-end?
  * *(Answer 1) Needs to be sleek, and intuitive to use*
 
