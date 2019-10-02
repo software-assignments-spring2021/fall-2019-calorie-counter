@@ -46,7 +46,7 @@ Actor: Customer
 
 Scenario: The customer wants to know the calorie count of an item. He opens the "calorie-counter" application takes a photo of the food and then the application automatically classifies the item along with the calorie count of a standard serving It would also ask the customer if he.she would like to add the food the meal after viewing the calorie count. In this way it can keep count of the calorie intake during a certain part of the day.
 
-Title: Check calorie-intake analytics breakdown by type of food(proteins, carbohydrates, fats, etc)\
+Title: Check calorie-intake breakdown(analytics) by type of food(proteins, carbohydrates, fats, etc)\
 Actor: Customer
 
 Scenario: The customer should be able to take correct measures regarding his eating habits to ensure wight-loss or other body-strengthning activities. It would allow the customer if her is consuming too much fat for lunch or if he is not having adequate protein in his diet.  
