@@ -1,5 +1,25 @@
 # Project Requirements
 
+## Functional Requirements 
+* Allows users to take a picture of what they are eating and return an approximate number of calories
+* Show users detailed analytics of their consumption habits over time through data visualization
+* Allow users to set daily calorie thresholds
+* Alert users if they have exceeded/haven't met those calorie thresholds
+* Allow users to view calorie intake by nutritional component i.e carbohydrates, fats, proteins, vitamins, etc 
+* Allow users to log in via an existing account such as Google or Facebook 
+* Motivate users to keep counting calories through some sort of means of encouragement. 
+
+## Non Functional Requirements 
+* Project will be implemented as a Progressive Web App to allow for cross-platform compatability and efficiency on the user end.
+* Project Tech Stack - Primarily MERN. 
+  * MongoDB - For database-related processes
+  * Express.js - for setting up backend server 
+  * React.js - For front end development
+  * Node.js - Backend API handling
+  * Tensorflow.js - For the machine learning component
+  * Tensorflow - initial prototype before converting to Tensorflow.js 
+  * D3.js/other data visualisation library - for creating the analytics components. 
+
 ## Stakeholder Interviews 
 
 ### Questions Asked 
