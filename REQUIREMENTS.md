@@ -7,6 +7,24 @@ Steve's background could have been completely different, but the main point is a
 
 
 ## Use Cases
+Title: Sign-up
+Actor: Customer
 
+Scenario: A new customer will be able to sign up for an account in the application so that the customer's associated food habits and its associated data could be stored.
+
+Title: Sign-in
+Actor: Customer
+
+Scenario: A returning customer will be able to sign in to their existing account in the application so that the they can see their food habits and its trend so that they can take some action if they want.
+
+Title: Check calorie count of food item
+Actor: Customer
+
+Scenario: The customer wants to know the calorie count of an item. He opens the "calorie-counter" application takes a photo of the food and then the application automatically classifies the item along with the calorie count of a standard serving It would also ask the customer if he.she would like to add the food the meal after viewing the calorie count. In this way it can keep count of the calorie intake during a certain part of the day.
+
+Title: Check calorie-intake analytics breakdown by type of food(proteins, carbohydrates, fats, etc)
+Actor: Customer
+
+Scenario: The customer should be able to take correct measures regarding his eating habits to ensure wight-loss or other body-strengthning activities. It would allow the customer if her is consuming too much fat for lunch or if he is not having adequate protein in his diet.  
 
 ## Domain Model
