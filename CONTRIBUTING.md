@@ -9,8 +9,8 @@ The Calorie Counter team is currently limited to the development team and is not
 - Work on the branch and after implementing all the changes, commit to your branch and merge it with the master branch.
 
 ## Team Standup Schedule
-Monday - 12 P.M
-Wednesday - 12 P.M
+Monday - 12 P.M\
+Wednesday - 12 P.M\
 Friday - Skype/Facetime/Facebook
 
 ## Values of contributing members
