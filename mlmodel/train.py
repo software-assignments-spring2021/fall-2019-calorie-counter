@@ -58,7 +58,6 @@ model.compile(optimizer='Adam',loss='categorical_crossentropy',metrics=['accurac
 # Adam optimizer
 # loss function will be categorical cross entropy
 # evaluation metric will be accuracy
-
 step_size_train=train_generator.n//train_generator.batch_size
 model.fit_generator(generator=train_generator,
                    steps_per_epoch=step_size_train,
