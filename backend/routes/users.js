@@ -7,6 +7,12 @@ router.route('/').get((req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:username').get((req, res) => {
+  User.findOne({username:req.params.username})
+    .then(exercise => res.json(exercise))
+    .catch(err => res.status(400).json('Error: ' + err));
+});
+
 router.route('/add').post((req, res) => {
   const username = req.body.username;
 
@@ -17,4 +23,9 @@ router.route('/add').post((req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:username').delete((req, res) => {
+  User.deleteOne({username:req.params.username})
+    .then(() => res.json('User deleted.'))
+    .catch(err => res.status(400).json('Error: ' + err));
+});
 module.exports = router;
