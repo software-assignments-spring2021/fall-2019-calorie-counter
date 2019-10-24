@@ -13,21 +13,21 @@ router.route('/add').post((req, res) => {
   const calorie = req.body.calorie;
   //const date = Date.parse(req.body.date);
 
-  const newFood = new Food({food_name,username,calorie,});
+  const newFood = new Food({food_name,username,calorie});
 
   newFood.save()
   .then(() => res.json('Food added!'))
   .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/:id').get((req, res) => {
-  Food.findById(req.params.id)
+router.route('/:username').get((req, res) => {
+  Food.findOne({username:req.params.username})
     .then(exercise => res.json(exercise))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/:id').delete((req, res) => {
-  Food.findByIdAndDelete(req.params.id)
+router.route('/:username').delete((req, res) => {
+  Food.deleteOne({username:req.params.username})
     .then(() => res.json('Exercise deleted.'))
     .catch(err => res.status(400).json('Error: ' + err));
 });
