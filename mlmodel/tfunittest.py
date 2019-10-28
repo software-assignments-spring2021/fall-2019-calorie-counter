@@ -9,21 +9,11 @@ def get_entry_np(t, indices_d1, indices_d2, batch_size):
         result[i] = t[i, indices_d1[i], indices_d2[i]]
     return result
 
-
 def get_entry_tf(t, indices_d1, indices_d2, batch_size):
     indices = tf.stack([tf.range(batch_size), indices_d1, indices_d2], axis=1)
     return tf.gather_nd(t, indices)
 
 class Test(unittest.TestCase):
-    def test_1(self):
-        # always passes
-        self.assertEqual(True, True)
-
-
-    def test_2(self):
-        pass
-
-    # etc.
     def test_get_entry(self):
         success = True
         for _ in range(10):
