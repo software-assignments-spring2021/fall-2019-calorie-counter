@@ -120,17 +120,13 @@ init = tf.global_variables_initializer()
 sess.run(init)
 
 
-# Check values of tensors!
 class drop_out_test(tf.test.TestCase):
-    # Make sure that we don't drop too much
     def dropout_greaterthan(self):
         with self.test_session():
             self.assertGreater(dropout.eval(), 0.25)
 
 
-# Test accuracy function
 class accuracy_test(tf.test.TestCase):
-    # Make sure accuracy function behaves correctly
     def accuracy_exact_test(self):
         with self.test_session():
             test_preds = [[0.9, 0.1], [0.01, 0.99]]
@@ -139,9 +135,7 @@ class accuracy_test(tf.test.TestCase):
             self.assertEqual(test_acc.eval(), 100.)
 
 
-# Test tensorshape
 class shape_test(tf.test.TestCase):
-    # Make sure our model output is size [batch_size, num_classes]
     def output_shape_test(self):
         with self.test_session():
             numpy_array = np.ones([batch_size, target_size])
