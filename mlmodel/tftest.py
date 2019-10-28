@@ -182,6 +182,8 @@ def main(argv):
             print('Generation # {}. Train Loss: {:.2f}. Train Acc (Test Acc): {:.2f} ({:.2f})'.format(*acc_and_loss))
 
 
+
+
 if __name__ == '__main__':
     cmd_args = sys.argv
     if len(cmd_args) > 1 and cmd_args[1] == 'test':
