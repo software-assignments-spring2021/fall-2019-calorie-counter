@@ -147,6 +147,38 @@ class shape_test(tf.test.TestCase):
             numpy_array = np.ones([batch_size, target_size])
             self.assertShapeEqual(numpy_array, model_output)
 
+class cuda_test(tf.test.TestCase):
+    def check_cuda(self):
+        self.assertTrue(tf.test.is_built_with_cuda())
+
+class equal_graph_def(tf.test.TestCase):
+    def check_equal_graph_def(self):
+        self.assertTrue(tf.test.assert_equal_graph_def)
+
+class test_gpu_device_name(tf.test.TestCase):
+    def check_gpu_device_name(self):
+        self.assertIsNotNone(tf.test.gpu_device_name())
+
+class test_gpu_support(tf.test.TestCase):
+    def check_gpu_support(self):
+        self.assertIsNotNone(tf.test.is_built_with_gpu_support())
+
+class test_rocm_support(tf.test.TestCase):
+    def check_rocm_support(self):
+        self.assertIsNotNone(tf.test.is_built_with_rocm())
+
+class test_gpu_available(tf.test.TestCase):
+    def check_gpu_available(self):
+        self.assertIsNotNone(tf.test.is_gpu_available(cuda_only=False,min_cuda_compute_capability=None))
+
+@tf.function
+def test_func(x):
+  return 2**x
+
+class test_gradient(tf.test.TestCase):
+    def check_test_gradient(self):
+        self.assertItemsEqual(tf.test.compute_gradient(test_func, [1.0]))
+
 
 def main(argv):
     # Start training loop
