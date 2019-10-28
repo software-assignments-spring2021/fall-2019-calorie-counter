@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   food_name: {type: String, required: true, trim: true, minlength: 3},
   username: { type: String, required: true,  trim: true, minlength: 3},
-  calorie: {type: Number, required: true}
+  calorie: {type: Number, required: true},
+  time_eaten: {type: Date, required: false}
 },{
   timestamps: true,
 });

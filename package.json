@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "nodemon": "^1.19.3",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -31,6 +34,8 @@
     ]
   },
   "devDependencies": {
-    "nyc": "^14.1.1"
+    "istanbul": "^0.4.5",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
   }
 }
