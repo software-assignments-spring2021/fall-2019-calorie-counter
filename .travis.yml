@@ -3,4 +3,5 @@ node_js:
   - "node"
   - "10"
 before_script: cd backend
-before_script: npm install
+script: 
+  - npm install
