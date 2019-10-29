@@ -9,7 +9,9 @@
     "nodemon": "^1.19.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "istanbul": "^0.4.5",
+    "nyc": "^14.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
