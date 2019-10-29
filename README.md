@@ -1,4 +1,5 @@
 # Calorie Counter
+[![Build Status](https://travis-ci.com/nyu-software-engineering/fall-2019-calorie-counter.svg?branch=master)](https://travis-ci.com/nyu-software-engineering/fall-2019-calorie-counter)
 
 ## What is it about?
 
