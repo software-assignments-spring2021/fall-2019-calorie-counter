@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "istanbul":"nyc mocha test.js --exit"
+    "test": "nyc mocha test.js --exit",
+    "istanbul": "nyc mocha test.js --exit"
   },
   "keywords": [],
   "author": "",
