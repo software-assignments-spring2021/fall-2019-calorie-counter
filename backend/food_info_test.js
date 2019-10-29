@@ -1,5 +1,17 @@
 food_api=require("./food_info.js");
 
-json_data=food_api.getFoodData("Pizza", function(response){
-console.log(response);
+
+/*var id=food_api.getFoodID("Pizza", function(response){
+//console.log(response);
+console.log(response.foods[0].fdcId);
+return response.foods[0].fdcId;;
+});*/
+
+
+
+food_api.getFoodData(339999, function(response){
+    //console.log(response);
+    console.log(response.foodNutrients);
 });
+
+
