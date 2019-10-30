@@ -1,17 +1,16 @@
 food_api=require("./food_info.js");
 
-
-/*var id=food_api.getFoodID("Pizza", function(response){
+function getID(response){
 //console.log(response);
 console.log(response.foods[0].fdcId);
-return response.foods[0].fdcId;;
-});*/
+return response.foods[0].fdcId;
+};
 
+food_api.getFoodID("Pizza",getID); 
 
-
-food_api.getFoodData(339999, function(response){
+/*food_api.getFoodData(339999, function(response){
     //console.log(response);
     console.log(response.foodNutrients);
-});
+});*/
 
 
