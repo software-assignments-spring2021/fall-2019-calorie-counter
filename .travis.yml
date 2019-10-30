@@ -6,7 +6,7 @@ matrix:
       before_install:
         - cd mlmodel/
       install: 
-        - pip install -r requirements.txt
+        - conda env create -f environment.yml
       script:
         - python tftest.py test
 
