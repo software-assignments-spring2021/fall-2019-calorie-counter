@@ -18,3 +18,5 @@ matrix:
         - cd backend/
       script:
         - npm install
+        - npm test
+   
