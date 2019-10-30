@@ -5,4 +5,6 @@ node_js:
 before_script: cd backend
 script: 
   - npm install
+  - npm update
+  - npm install nyc
   - npm test
