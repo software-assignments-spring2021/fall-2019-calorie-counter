@@ -1,7 +1,7 @@
 # THIS PROJECT HAS BEEN ABANDONED
 
 # Calorie Counter
-[![Build Status](https://travis-ci.com/nyu-software-engineering/fall-2019-calorie-counter.svg?branch=master)](https://travis-ci.com/nyu-software-engineering/fall-2019-calorie-counter)
+[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/nyu-software-engineering/fall-2019-calorie-counter)
 
 ## What is it about?
 
