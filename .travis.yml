@@ -1,8 +1,22 @@
-language: node_js
-node_js:
-  - "node"
-  - "10"
-before_script: cd backend
-script: 
-  - npm install
-  - npm test
+matrix:
+  include:
+    - language: python
+      python: 
+        - 3.7
+      before_install:
+        - cd mlmodel/
+      install: 
+        - conda env create -f environment.yml
+      script:
+        - python tftest.py test
+
+    - language: node_js
+      node_js:
+        - "node"
+        - "10"
+      before_install:
+        - cd backend/
+      script:
+        - npm install
+        - npm test
+   
